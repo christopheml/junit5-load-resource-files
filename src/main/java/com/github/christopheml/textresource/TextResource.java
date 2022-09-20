@@ -1,10 +1,10 @@
-package com.github.christopheml.junit5resource;
+package com.github.christopheml.textresource;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface ClasspathResource {
+public @interface TextResource {
 
     String value();
 
